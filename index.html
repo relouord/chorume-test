@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE DO CHORUME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="init">
+        <h1>Fala aí, dev cansado(a)! Seja muito bem-vindo(a) ao Teste do Chorume</h1>
+        <h1>Fala pra nóis aí teu vulgo:</h1>
+        <input type="text" id="inVulgo" autocomplete="off" placeholder="Nome, Apelido, Nickname...">
+        <button type="submit">Bora, papai!</button>
+    </form>
+    <div id="questions">
+        <h1 id="question"></h1>
+        <form id="options">
+            <div><input type="radio" name="option" value="opA" id="opA"><label id="labelA" for="opA"></label></div>
+            <div><input type="radio" name="option" value="opB" id="opB"><label id="labelB" for="opB"></label></div>
+            <div><input type="radio" name="option" value="opC" id="opC"><label id="labelC" for="opC"></label></div>
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+    <div id="result"></div>
+    <small>Desenvolvido por <a href="https://instagram.com/relouord" target="_blank" rel="noreferrer noopener">Relouord</a></small>
+</body>
+<script src="script.js"></script>
+</html>

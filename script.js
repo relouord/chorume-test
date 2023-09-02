@@ -7,7 +7,7 @@ const questions = [
         opB: 'Com açucar e leite, uma caneca por dia no máximo',
         opC: 'Não tomo café. Apenas Capuccinos, Frapuccinos e outros ccinos'
     },{
-        question: 'Está aqui respondendo esse quiz em qual horário?',
+        question: 'Está aqui respondendo esse teste em qual horário?',
         opA: 'Horário de trabalho',
         opB: 'Horário de almoço',
         opC: 'Após o expediente'

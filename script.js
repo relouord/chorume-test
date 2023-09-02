@@ -98,7 +98,7 @@ formOptions.addEventListener('submit', e => {
                 ops[i].checked = false
             }
         }
-        if(numQuestions<6){
+        if(numQuestions<7){
             showQuestion()
         } else{
             showResult()
@@ -131,11 +131,11 @@ function showResult(){
     })
 
     if(chorume > personalitte && chorume > redPill){
-        divResult.innerHTML = `<h1>PARABÉNS, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM DEV CHORUME!!!</h1><p>Dev raiz. Transforma café em código. "Toma no cu" é vírgula. Só trampa remoto. Encerra a semana na quinta-feira e taca o foda-se!</p>`
+        divResult.innerHTML = `<h1>PARABÉNS, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM(A) DEV CHORUME!!!</h1><p>Dev raiz. Transforma café em código. "Toma no cu" é vírgula. Só trampa remoto. Encerra a semana na quinta-feira e taca o foda-se!</p>`
     } else if(personalitte > chorume && personalitte > redPill){
-        divResult.innerHTML = `<h1>PARABÉNS, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM DEV PERSONALITTÉ!!!</h1><p>Dev nutelinha. Coda fofo. Trabalha híbrido. Nunca mandou colega do trampo tomar no cu. Nunca dá migué na daily e chora quando vê um bug.</p>`
+        divResult.innerHTML = `<h1>PORRA, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM(A) DEV PERSONALITTÉ!!!</h1><p>Dev nutelinha. Coda fofo. Trabalha híbrido. Nunca mandou colega do trampo tomar no cu. Nunca dá migué na daily e chora quando vê um bug.</p>`
     } else if(redPill > chorume && redPill > personalitte){
-        divResult.innerHTML = `<h1>PARABÉNS, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM DEV RED PILL!!!</h1><p>Dev tanga frouxa. Coda fofo 2.0. Trabalha remoto, mas vai todo dia no escritório porque é otário. X9 do caraio. Faz teste unitário até nos logs do console. Caga 10 regras por minuto e vende curso bosta de como ficar rico com programação.</p>`
+        divResult.innerHTML = `<h1>PORRA, ${vulgo.toUpperCase()}!</h1><h1>VOCÊ É UM(A) DEV RED PILL DA BOLHA TECH!!!</h1><p>Dev tanga frouxa. Coda fofo 2.0. Trabalha remoto, mas vai todo dia no escritório porque é otário. X9 do caraio. Faz teste unitário até nos logs do console. Caga 10 regras por minuto e vende curso bosta de como ficar rico com programação.</p>`
     } else{
         divResult.innerHTML = `<h1>Não sabemos definir que tipo de dev você é, ${vulgo}. Suas respostas foram muito confusas...</h1><p>Atualize a página e refaça o quiz</p>`
     }

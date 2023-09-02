@@ -98,7 +98,7 @@ formOptions.addEventListener('submit', e => {
                 ops[i].checked = false
             }
         }
-        if(numQuestions<7){
+        if(numQuestions<6){
             showQuestion()
         } else{
             showResult()
